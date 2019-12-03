@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Interface\\Noekeon Interface.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Interface\\Noekeon Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Interface\\Noekeon Interface.csproj",
+        "projectName": "Noekeon Interface",
+        "projectPath": "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Interface\\Noekeon Interface.csproj",
+        "packagesPath": "C:\\Users\\Vladislav Ioffe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vladislav Ioffe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Library\\Noekeon Library.csproj": {
+                "projectPath": "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Library\\Noekeon Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Library\\Noekeon Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Library\\Noekeon Library.csproj",
+        "projectName": "Noekeon Library",
+        "projectPath": "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Library\\Noekeon Library.csproj",
+        "packagesPath": "C:\\Users\\Vladislav Ioffe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vladislav Ioffe\\source\\repos\\Noekeon\\Noekeon Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vladislav Ioffe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

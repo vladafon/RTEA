@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noekeon Interface", "Noekeon Interface\Noekeon Interface.csproj", "{87E5E5BE-DA65-412F-9D6F-48F952B7553C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noekeon Library", "Noekeon Library\Noekeon Library.csproj", "{BC82174B-701F-4D19-8FBA-454B0F07D196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E5E5BE-DA65-412F-9D6F-48F952B7553C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E5E5BE-DA65-412F-9D6F-48F952B7553C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E5E5BE-DA65-412F-9D6F-48F952B7553C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E5E5BE-DA65-412F-9D6F-48F952B7553C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC82174B-701F-4D19-8FBA-454B0F07D196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC82174B-701F-4D19-8FBA-454B0F07D196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC82174B-701F-4D19-8FBA-454B0F07D196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC82174B-701F-4D19-8FBA-454B0F07D196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2438CFE3-478B-46CD-9CE5-1E54269F2401}
+	EndGlobalSection
+EndGlobal
