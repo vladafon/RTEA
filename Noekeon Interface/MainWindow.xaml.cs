@@ -17,6 +17,8 @@ namespace Interface
 
         private void Encode_Click(object sender, RoutedEventArgs e)
         {
+            if (String.IsNullOrEmpty(EncodedTextBox.Text))
+                return;
             string encodedText = EncodedTextBox.Text;
             string key = KeyTextBox.Text;
             Encoding encoding = Encoding.Default;
@@ -51,6 +53,7 @@ namespace Interface
             {
                 DecodedTextBox.Text = exception.Message;
                 DecodedBytesTextBox.Text = String.Empty;
+                Status.Content = "Error!";
                 return;
             }
 
@@ -73,7 +76,8 @@ namespace Interface
 
         private void Decode_Click(object sender, RoutedEventArgs e)
         {
-
+            if (String.IsNullOrEmpty(DecodedBytesTextBox.Text))
+                return;
             string [] decodedBytesString = DecodedBytesTextBox.Text.Split('-');
             string key = KeyTextBox.Text;
             Encoding encoding = Encoding.Default;
@@ -100,6 +104,7 @@ namespace Interface
             {
                 EncodedTextBox.Text = exception.Message;
                 EncodedBytesTextBox.Text = String.Empty;
+                Status.Content = "Error!";
                 return;
             }
 
