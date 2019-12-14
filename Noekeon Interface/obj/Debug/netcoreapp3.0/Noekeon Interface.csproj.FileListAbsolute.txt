@@ -18,3 +18,5 @@ C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcor
 C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Noekeon Interface.csproj.CopyComplete
 C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Noekeon Interface.dll
 C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Noekeon Interface.pdb
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\RTEA Library.dll
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\RTEA Library.pdb

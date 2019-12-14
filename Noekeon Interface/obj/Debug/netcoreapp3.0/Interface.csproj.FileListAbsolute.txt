@@ -1,0 +1,20 @@
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\Interface.exe
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\Interface.deps.json
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\Interface.runtimeconfig.json
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\Interface.runtimeconfig.dev.json
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\Interface.dll
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\Interface.pdb
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\RTEA Library.dll
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\bin\Debug\netcoreapp3.0\RTEA Library.pdb
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.csprojAssemblyReference.cache
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface_MarkupCompile.cache
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface_MarkupCompile.lref
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.g.resources
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.AssemblyInfoInputs.cache
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.AssemblyInfo.cs
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.csproj.CopyComplete
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.dll
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.pdb
