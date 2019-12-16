@@ -53,7 +53,7 @@ namespace Interface
             {
                 DecodedTextBox.Text = exception.Message;
                 DecodedBytesTextBox.Text = String.Empty;
-                Status.Content = "Error!";
+                Status.Content = "Ошибка!";
                 return;
             }
 
@@ -71,7 +71,7 @@ namespace Interface
                 }
             }
 
-            Status.Content = "Encoded!";
+            Status.Content = "Зашифровано!";
         }
 
         private void Decode_Click(object sender, RoutedEventArgs e)
@@ -104,7 +104,7 @@ namespace Interface
             {
                 EncodedTextBox.Text = exception.Message;
                 EncodedBytesTextBox.Text = String.Empty;
-                Status.Content = "Error!";
+                Status.Content = "Ошибка!";
                 return;
             }
 
@@ -125,7 +125,19 @@ namespace Interface
                 }
             }
 
-            Status.Content = "Decoded!";
+            Status.Content = "Расшифровано!";
+        }
+
+        private void Help_Click(object sender, RoutedEventArgs e)
+        {
+            Info info = new Info();
+            info.ShowDialog();
+        }
+
+        private void About_Click(object sender, RoutedEventArgs e)
+        {
+            About about=new About();
+            about.ShowDialog();
         }
     }
 }

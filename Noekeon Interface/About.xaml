@@ -1,0 +1,19 @@
+﻿<Window x:Class="Interface.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interface"
+        mc:Ignorable="d"
+        Title="About" Height="114" Width="427">
+    <Grid Height="87" Margin="0,0,10,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="95*"/>
+            <ColumnDefinition Width="250*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Height="63" Margin="10,23,0,0" Text="Программу разработал студент группы БИСТ-17-1 Иоффе Владислав Александрович в качестве курсовой работы по дисциплине Информационная безопасность" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" Grid.Column="2" RenderTransformOrigin="0.606,0.527" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

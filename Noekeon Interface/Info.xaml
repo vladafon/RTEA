@@ -1,0 +1,13 @@
+﻿<Window x:Class="Interface.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interface"
+        mc:Ignorable="d"
+        Title="Info" Height="216" Width="411">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Height="180" Text="Чтобы зашифровать текст, введите его в окно Расшифрованный текст и ключ шифрования в поле Ключ и нажмите кнопку Зашифровать. Программа переведет текст в массив байтов и отобразит их в окне Расшифрованные байты. Результ шифрования будет показан в окнах Зашифрованный текст и Зашифрованные байты. Чтобы расшифровать текст, введите его байты в окно Зашифрованные байты и ключ шифрования в поле Ключ и нажмите кнопку Расшифровать. Программа переведет эти байты в строку в окне Зашифрованный текст и выдаст расшифрованные данные в окнах Расшифрованный текст и Расшифрованные байты." TextWrapping="Wrap" VerticalAlignment="Center" Width="391" TextChanged="TextBox_TextChanged"/>
+
+    </Grid>
+</Window>

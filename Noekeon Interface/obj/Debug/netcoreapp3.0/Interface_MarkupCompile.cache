@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0
 C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\App.xaml
-11151548125
+3-515424228
 
-2-1387719340
+5-1735202878
 1931197905942
-MainWindow.xaml;
+About.xaml;Info.xaml;MainWindow.xaml;
 
-False
+True
 

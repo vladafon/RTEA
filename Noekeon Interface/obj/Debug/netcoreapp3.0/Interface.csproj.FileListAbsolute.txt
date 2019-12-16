@@ -18,3 +18,7 @@ C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcor
 C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.csproj.CopyComplete
 C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.dll
 C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Interface.pdb
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\About.g.cs
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\About.baml
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Info.g.cs
+C:\Users\Vladislav Ioffe\source\repos\Noekeon\Noekeon Interface\obj\Debug\netcoreapp3.0\Info.baml

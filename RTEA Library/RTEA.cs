@@ -19,7 +19,7 @@ namespace RTEA_Library
                 Array.Resize(ref encodedBytes, encodedBytes.Length + 8 - zeroElementsCount);
                 for (int i = 0; i < 8 - zeroElementsCount; i++)
                 {
-                    encodedBytes[encodedBytes.Length - 1 - i] = 0x20; //Это пробел
+                    encodedBytes[encodedBytes.Length - 1 - i] = 0x01; //Это дополняющий символ
                 }
             }
 
@@ -90,7 +90,7 @@ namespace RTEA_Library
                 Array.Resize(ref encodedBytes, encodedBytes.Length + 4 - zeroElementsCount);
                 for (int i = 0; i < 4 - zeroElementsCount; i++)
                 {
-                    encodedBytes[encodedBytes.Length - 1 - i] = 0x20; //Это пробел
+                    encodedBytes[encodedBytes.Length - 1 - i] = 0x01; //Это дополняющий символ
                 }
             }
 

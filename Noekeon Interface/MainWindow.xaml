@@ -5,29 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Interface"
         mc:Ignorable="d"
-        Title="RTEA User Interface" Height="525" Width="442">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="78*"/>
-            <ColumnDefinition Width="295*"/>
-            <ColumnDefinition Width="89*"/>
-        </Grid.ColumnDefinitions>
-        <Label Content="Encoded Text" HorizontalAlignment="Left" Margin="68,37,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <Label Content="Decoded Text" HorizontalAlignment="Left" Margin="202,37,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button Content="Encode" HorizontalAlignment="Left" Height="32" Margin="68,404,0,0" VerticalAlignment="Top" Width="108" Click="Encode_Click" Grid.ColumnSpan="2"
+        Title="RTEA User Interface" Height="536" Width="450">
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Click="Help_Click" Content="Справка" />
+                <Button Click ="About_Click"  Content="О программе" />
+                <StackPanel/>
+            </ToolBar>
+        </ToolBarTray>
+        <Grid Height="475" Width="449">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="91*"/>
+                <ColumnDefinition Width="266*"/>
+                <ColumnDefinition Width="85*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Расшифрованный текст" HorizontalAlignment="Left" Margin="52,37,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="26" Width="142"/>
+            <Label Content="Зашифрованный текст" HorizontalAlignment="Left" Margin="179,37,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2" Height="26" Width="136"/>
+            <Button Content="Зашифровать" HorizontalAlignment="Left" Height="32" Margin="68,404,0,0" VerticalAlignment="Top" Width="108" Click="Encode_Click" Grid.ColumnSpan="2"
                 Grid.Column="0" />
-        <Button Content="Decode" HorizontalAlignment="Left" Height="32" Margin="188,404,0,0" VerticalAlignment="Top" Width="108" Click="Decode_Click" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <TextBox Name="EncodedTextBox" HorizontalAlignment="Left" Margin="31,68,0,0" Text="Example" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="93" Grid.ColumnSpan="2"
+            <Button Content="Расшифровать" HorizontalAlignment="Left" Height="32" Margin="188,404,0,0" VerticalAlignment="Top" Width="108" Click="Decode_Click" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBox Name="EncodedTextBox" HorizontalAlignment="Left" Margin="31,68,0,0" Text="Example" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="93" Grid.ColumnSpan="2"
                  Grid.Column="0" />
-        <TextBox Name="DecodedTextBox" HorizontalAlignment="Left" Margin="160,68,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="93" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <TextBox Name="KeyTextBox" HorizontalAlignment="Left" Margin="34,348,0,0" Text="11111111111111111111111111111111" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="27" Grid.Column="1"/>
-        <Label Content="Key" HorizontalAlignment="Left" Margin="129,317,0,0" VerticalAlignment="Top" Grid.Column="1" RenderTransformOrigin="0.387,4.94"/>
-        <Label Content="Encoded Bytes" HorizontalAlignment="Left" Margin="68,161,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <Label Content="Decoded Bytes" HorizontalAlignment="Left" Margin="202,161,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="EncodedBytesTextBox" HorizontalAlignment="Left" Margin="31,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="118" Grid.ColumnSpan="2"
+            <TextBox Name="DecodedTextBox" HorizontalAlignment="Left" Margin="160,68,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="93" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBox Name="KeyTextBox" HorizontalAlignment="Left" Margin="34,348,0,0" Text="11111111111111111111111111111111" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="27" Grid.Column="1"/>
+            <Label Content="Ключ" HorizontalAlignment="Left" Margin="125,317,0,0" VerticalAlignment="Top" Grid.Column="1" RenderTransformOrigin="0.387,4.94" Height="26" Width="42"/>
+            <Label Content="Расшифрованные байты" HorizontalAlignment="Left" Margin="50,161,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="26" Width="148"/>
+            <Label Content="Зашифрованные байты" HorizontalAlignment="Left" Margin="177,161,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2" Height="26" Width="139"/>
+            <TextBox x:Name="EncodedBytesTextBox" HorizontalAlignment="Left" Margin="31,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="118" Grid.ColumnSpan="2"
             Grid.Column="0" />
-        <TextBox x:Name="DecodedBytesTextBox" HorizontalAlignment="Left" Margin="160,192,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="118" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Label Name="Status" Content="Waiting..." HorizontalAlignment="Left" Margin="117,439,0,0" VerticalAlignment="Top" Grid.Column="1" RenderTransformOrigin="0.387,4.94"/>
+            <TextBox x:Name="DecodedBytesTextBox" HorizontalAlignment="Left" Margin="160,192,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="118" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <Label Name="Status" Content="Ожидание..." HorizontalAlignment="Left" Margin="101,441,0,0" VerticalAlignment="Top" Grid.Column="1" RenderTransformOrigin="0.387,4.94" Height="26" Width="100"/>
 
-    </Grid>
+        </Grid>
+    </DockPanel>
+
 </Window>
